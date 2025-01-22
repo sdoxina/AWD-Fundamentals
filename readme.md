@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Welcome!Iraya is a leading retailer of an extensive variety of stuffed toys and plush toys that capture the hearts of both kids and adults alike. We pride ourselves on offering a vast selection of high-quality and uniquely designed plush toys inspired by popular anime, danmei, K-pop, manhwas, and many more beloved characters. At Iraya, we ensure that each plush toy brings joy and comfort, with the added benefit of FREE shipping on all orders.
 </div>
 
 <br />
