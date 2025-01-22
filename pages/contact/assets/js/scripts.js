@@ -1,34 +1,37 @@
-// 1. Variable Declaration
-let nameInput = document.getElementById('name');
-let emailInput = document.getElementById('email');
-let messageInput = document.getElementById('message');
-let form = document.getElementById('contactForm');
+// Variable declaration
+const form = document.getElementById('contactForm');
 
-// 2. Input and Output
-form.addEventListener('submit', function (event) {
-    event.preventDefault();
-    
-    // Fetching the input values
-    let name = nameInput.value;
-    let email = emailInput.value;
-    let message = messageInput.value;
-    
-    // Output the form data (this could be sending data to the server)
-    alert("Name: " + name + "\nEmail: " + email + "\nMessage: " + message);
+// Event listener for form submission
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent the default form submission behavior
 
-    // 3. Conditional Statements
-    if (email.includes('@')) {
-        console.log("Valid email.");
-    } else {
-        console.log("Invalid email.");
+  // Input and output
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  // Conditional statement
+  if (!name || !email || !message) {
+    alert("All fields are required!");
+    return;
+  }
+
+  // Simulating output
+  console.log("Form Submitted:");
+  console.log(`Name: ${name}`);
+  console.log(`Email: ${email}`);
+  console.log(`Message: ${message}`);
+  alert("Thank you for your message!");
+
+  // Looping statement (example: validate input length)
+  const inputs = [name, email, message];
+  for (let i = 0; i < inputs.length; i++) {
+    if (inputs[i].length < 3) {
+      alert("Each input must be at least 3 characters long.");
+      return;
     }
+  }
 
-    // 4. Looping Statements
-    // Print each letter of the name using a loop
-    for (let i = 0; i < name.length; i++) {
-        console.log("Letter " + (i + 1) + ": " + name[i]);
-    }
-
-    // Reset form after submission
-    form.reset();
+  // Reset form fields after successful submission
+  form.reset();
 });

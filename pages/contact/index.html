@@ -48,27 +48,30 @@
 </nav>
 
 <section class="contact">
-    <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
-        <section class="formcarry-container">
-
-<h1>Contact Us</h1>
-
-<form id="contactForm">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required><br><br>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required><br><br>
-
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-  <button type="submit">Submit</button>
-</form>
-
-          </section>
-    </div>
+  <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
+    <section class="form-container">
+      <h1>Contact Us</h1>
+      <form id="contactForm">
+        <div class="form-block">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Your first and last name" required />
+        </div>
+        <div class="form-block">
+          <label for="email">Your Email Address</label>
+          <input type="email" id="email" placeholder="john@doe.com" required />
+        </div>
+        <div class="form-block">
+          <label for="message">Your Message</label>
+          <textarea id="message" placeholder="Enter your message..." required></textarea>
+        </div>
+        <div class="form-block">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+  </div>
 </section>
+
 
 
 <footer class="footer">
