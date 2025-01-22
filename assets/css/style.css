@@ -111,7 +111,7 @@
   }
   
   .hero-section {
-    background: url(../img/imgHeroS.png) no-repeat center;
+    background: url(assets/img/imgHeroS.png) no-repeat center;
     background-size: cover;
     width: 100%;
     height: 100vh;
