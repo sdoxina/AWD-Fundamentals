@@ -22,7 +22,7 @@
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=sdoxina/AWD-Fundamentals)
 
-[![wakatime](https://wakatime.com/@65f5d1d3-0933-4b6c-b6df-d8bf043e70be/projects/ohrnaihcob?start=2025-01-16&end=2025-01-22)
+[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
 ---
 
