@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/sdoxina/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/irayaLogo.png" alt="Iraya" width="130" height="150">
+    <img src="./assets/img/irayaLogo.png" alt="Iraya" width="150" height="150">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">AWD-Fundamentals</h3>
