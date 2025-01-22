@@ -42,4 +42,3 @@
         emailInput.value = '';
         messageInput.value = '';
     });
-</script>
